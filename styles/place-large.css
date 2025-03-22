@@ -1,0 +1,36 @@
+@media (min-width: 600px) {
+   .data, .weather {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.651);
+      width: 21rem;
+      padding: 10px;
+      padding-top: 7rem;
+   }
+   .data {
+      left: 100px;
+      top: 200px;
+   }
+   .weather {
+      right: 100px;
+      top: 400px;
+   }
+
+   h2 {
+      background-color: var(--secondary-color);
+      position: inherit;
+      /* width: 310px;
+      height: 100px; */
+      padding: 20px;
+      width: 240px;
+      font-size: 2rem;
+      color: white;
+   }
+
+   h2 {
+      left: -10px;
+      top: 10px;
+   } 
+   .weather img {
+      align-self: center;
+   }
+}
