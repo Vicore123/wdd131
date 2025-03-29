@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>W02 Assignment: Picture Album - Vinicius Alves</title>
+   <meta name="description" content="W02 Assignment: Picture Album - Vinicius Alves">
+   <meta name="author" content="Vinicius Alves">
+
+   <link rel="stylesheet" href="styles/filtered-temples.css">
+   <link rel="stylesheet" href="styles/filtered-temples-large.css">
+   <script src="scripts/filtered-temples.js" defer></script>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+      <h1>Temple Album</h1>
+      <button id="menu" aria-label="Menu Button" role="button"></button>
+      <nav role="navigation">
+         <ul class="navigation">
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="old">Old</a></li>
+            <li><a href="#" id="new">New</a></li>
+            <li><a href="#" id="large">Large</a></li>
+            <li><a href="#" id="small">Small</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <h1>Home</h1>
+      <div id="collection"></div>
+   </main>
+
+   <footer>
+      <p>©<span id="currentyear"></span> Vinicius Lima Alves, Brazil</p>
+      <p id="lastModified"></p>
+   </footer>
+</body>
+</html>
