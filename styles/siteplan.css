@@ -1,0 +1,27 @@
+:root {
+   --primary-color: #1B1C24;
+   --secondary-color: #F5ECE0;
+}
+* {
+
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   /* font-size: 20px; */
+   column-rule: var(--primary-color);
+
+}
+
+body {
+   background-color: var(--secondary-color);
+   padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section {
+   border: 1px solid var(--primary-color);
+   padding-left: 10px;
+   width: 50%;
+   margin-bottom: 10px;
+}
